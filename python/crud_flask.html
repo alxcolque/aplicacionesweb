@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title> Curso Flask </title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href = "../assets/img/favicon.png" rel = "icon" >
+    <link href = "../assets/img/apple-touch-icon.png" rel = "apple-touch-icon" >
+
+    <!-- Google Fonts -->
+    <link
+        href = "../https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel = "stylesheet" >
+
+    <!-- Vendor CSS Files -->
+    <link href = "../assets/vendor/aos/aos.css" rel = "stylesheet" >
+    <link href = "../assets/vendor/bootstrap/css/bootstrap.min.css" rel = "stylesheet" >
+    <link href = "../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel = "stylesheet" >
+    <link href = "../assets/vendor/boxicons/css/boxicons.min.css" rel = "stylesheet" >
+    <link href = "../assets/vendor/glightbox/css/glightbox.min.css" rel = "stylesheet" >
+    <link href = "../assets/vendor/remixicon/remixicon.css" rel = "stylesheet" >
+    <link href = "../assets/vendor/swiper/swiper-bundle.min.css" rel = "stylesheet" >
+
+    <!-- Template Main CSS File -->
+    <link href = "../assets/css/style.css" rel = "stylesheet" >
+    <link href = "../assets/css/prism.css" rel = "stylesheet" >
+
+    <!-- == == == == == == == == == == == == == == == == == == == == == == == == == == == =
+  * Template Name: Arsha - v4.1.0
+  * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top ">
+        <div class="container d-flex align-items-center">
+
+            <h5 class="text-white logo bi bi-arrow-left-circle me-auto"><a href="/index.html">Volver al Inicio</a></h5>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+            <nav id="navbar" class="navbar">
+                <ul>
+
+                    <li><a class="nav-link scrollto" href="#cursos">Flask</a></li>
+
+
+                    <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
+                    <!-- <li><a class="getstarted scrollto" href="#about">Get Started</a></li> -->
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+
+        </div>
+    </header><!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+
+
+    <main id="main">
+
+        <!-- ======= Cliens Section ======= -->
+        <section id="cursos" class="cta team section-bg">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title text-light">
+                    <h1>Python + Flask + MySQL</h1>
+                    <p>Complemento de la clase Ingeniería de SW 2, conexión con la base de datos y un pequeño crud
+                        decorado con estilos bootstrap.</p>
+                </div>
+                <div class="row" data-aos="zoom-in">
+
+                    <div class="col-lg-12 mt-3">
+                        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="">
+                                <h4>Tabla de contenidos</h4>
+                                <ol class="OrderedList">
+                                    <li><a href="#tc1">Descargar python + pip</a></li>
+                                    <li><a href="#tc2">Estructura de archivos</a></li>
+                                    <li><a href="#tc3">Instalación de Flask</a></li>
+                                    <li><a href="#tc4">Creación de la base datos</a></li>
+                                    <li><a href="#tc5">Archivo de python</a></li>
+                                    <li><a href="#tc6">Vistas HTML</a></li>
+                                    <li><a href="#tc7">Video Guía</a></li>
+                                    
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-3" id="tc1">
+                        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="">
+                                <h4>Descargar python + pip</h4>
+                                <span>Primero instala python 3 o superior</span>
+                                <div class=""><img src="../assets/img/python/python_descargar.png" class="img-fluid"
+                                        alt="" width="80%"></div>
+                                <br>
+                                <span>Al instalar se debe dejar macado el path, para poder ejecutar python desde
+                                    cualquier parte del sistema</span>
+                                <div class=""><img src="../assets/img/python/python_path.png" class="img-fluid" alt=""
+                                        width="80%"></div>
+                                <span>Una vez instalado correctamente pasamos al siguiente paso</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-3" id="tc2">
+                        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+
+                            <div class="member-info">
+                                <h4>Estructura de archivos</h4>
+                                <span>Para este tutorial vamos a estucturuar los arachivos de la siguiente manera</span>
+                                <div class=""><img src="../assets/img/python/python_estructura.png" class="img-fluid"
+                                        alt="" width="80%"></div>
+                                <br>
+                                <a href="#" class="btn btn-primary">Descargar desde GitHub</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="card mt-3" id="tc3">
+                        <div class="" data-aos="zoom-in" data-aos-delay="100">
+
+                            <div>
+                                <h4 class="text-primary">Instalación de Flask en un entorno virtual</h4>
+                                <span>Lo primero que hacermos es abrir nuestro terminal en caso de Windows CMD</span>
+                                
+                                <p class="text-dark">Creamos una carpeta en cualquier parte del sistema operativo</p>
+                                <pre class="language-javascript"><code> mkdir miwebflask</code></pre>
+                                <p class="text-dark">Accedemos a la carpeta</p>
+                                <pre class="language-javascript"><code> cd miwebflask</code></pre>
+                                <p class="text-dark">Ahora instalamos el entono vitual</p>
+                                <pre class="language-javascript"><code> pip install pipenv</code></pre>
+                                <p class="text-dark">Activamos el entorno virtual</p>
+                                <pre class="language-javascript"><code> pipenv shell</code></pre>
+                                <p class="text-dark">Asi se ve cuando se ejecuta en un entorno virtual. Al inicio del aparece el nombre de la carpeta entre paréntesis</p>
+                                <img src="../assets/img/python/python_entornovirtual.png" class="img-fluid"
+                                        alt="" width="70%">
+                                <br>
+                                <p class="text-dark">Procedemos a instalar dentro del entorno virtual FLASK</p>
+                                <pre class="language-javascript"><code> pip install flask</code></pre>
+                                <p class="text-dark">Luego instalamos MySQL</p>
+                                <pre class="language-javascript"><code> pip install flask_mysqldb</code></pre>
+                            </div>
+                            
+                            
+                        </div>
+                        
+                    </div>
+
+                    <div class="card mt-3" id="tc4">
+                        <div class="" data-aos="zoom-in" data-aos-delay="100">
+
+                            <div class="container">
+                                <h4 class="text-primary">Creación de la base datos</h4>
+                                <span>En mi caso yo voy a crear mi base de datos en un servidor local XAMPP</span>
+                                <span>Voy a crear a través de líneas de código utilizando la sintáxis del lenguaje SQL</span>
+                                <pre class="line-numbers language-sql"><code>CREATE DATABASE materiadb;
+USE materiadb;
+CREATE TABLE materias ( 
+    id INT PRIMARY KEY AUTO_INCREMENT, 
+    materia VARCHAR(50),
+    sigla VARCHAR(20),
+    descripcion VARCHAR(255)
+);
+</code></pre>
+                                <span>Al abrir XAMPP desde el enlace <a href="http://localhost/phpmyadmin/">http://localhost/phpmyadmin/</a> nos dirigimos a la pestaña SQL para editar nuestro código</span>
+                                <img src="../assets/img/python/python_creardb.png" class="img-fluid"
+                                        alt="" width="70%">
+                
+                                <p class="text-dark">Prueba de que la base de datos se creó correctamente</p>
+                                
+                                <img src="../assets/img/python/python_bd_creada.png" class="img-fluid"
+                                        alt="" width="70%">
+                                <br>
+                                <p class="text-dark">Eso es todo en cuando a la creacion de la base de datos</p>
+                                
+                            </div>
+                            
+                            
+                        </div>
+                        
+                    </div>
+
+                    <div class="card mt-3" id="tc5">
+                        <div class="" data-aos="zoom-in" data-aos-delay="100">
+
+                            <div>
+                                <h4 class="text-primary">Archivo de python</h4>
+                                <p class="text-dark">En la raiz del proyecto creamos un archivo llamado <b>app.py</b> dentro insertamos el siguiente código</p>
+                                <div class="card">
+                                    <pre class="line-numbers language-python"><code>
+from flask import Flask, render_template, request, redirect, url_for, flash
+from flask_mysqldb import MySQL
+
+app = Flask(__name__)
+
+# conexion con la base de datos
+app.config['MYSQL_HOST'] = 'localhost'
+app.config['MYSQL_USER'] = 'root'
+app.config['MYSQL_PASSWORD'] = ''
+app.config['MYSQL_DB'] = 'materiadb'
+
+mysql = MySQL(app)
+# manejo de sesiones
+app.secret_key = 'misecreto'
+
+#Ruta principal
+@app.route('/')
+def index():
+    cur = mysql.connection.cursor()
+    cur.execute('SELECT * FROM materias')
+    data=cur.fetchall()
+    return render_template('index.html', materias = data)
+
+
+#Crear Materia
+@app.route('/crear_materia', methods=['POST'])
+def crearMateria():
+    if request.method == 'POST':
+        materia = request.form['materia']
+        sigla = request.form['sigla']
+        descripcion = request.form['descripcion']
+
+        cur = mysql.connection.cursor()
+        cur.execute(
+            'INSERT INTO materias (materia, sigla, descripcion) VALUES(%s,%s,%s)', (materia, sigla, descripcion))
+        mysql.connection.commit()
+        flash('Materia creado exitosamente')
+        return redirect(url_for('index'))
+        
+    
+
+#Editar Materia
+@app.route('/editar/&lt;id>')
+def obtenerMateria(id):
+    cur=mysql.connection.cursor()
+    cur.execute('SELECT * FROM materias WHERE id = %s',[id])
+    data = cur.fetchall()
+    return render_template('edit_materia.html', materia = data[0])
+
+#Modificar
+@app.route('/actualizar/&lt;id>',methods = ['POST'])
+def actualizaMateria(id):
+    if request.method == 'POST':
+        materia = request.form['materia']
+        sigla = request.form['sigla']
+        descripcion = request.form['descripcion']
+        cur = mysql.connection.cursor()
+        cur.execute("""
+            UPDATE materias
+            SET materia = %s,
+            sigla = %s,
+            descripcion = %s
+            WHERE id = %s
+        """,(materia, sigla, descripcion, id))
+        mysql.connection.commit()
+    flash('Actualizado con exito')
+
+    return redirect(url_for('index'))
+
+#Editar Materia
+@app.route('/eliminar/&lt;string:id>')
+def eliminarMateria(id):
+    cur = mysql.connection.cursor()
+    cur.execute('DELETE FROM materias WHERE id = {0}'.format(id))
+    mysql.connection.commit()
+    flash('Contact removed successfully')
+    return redirect(url_for('index'))
+
+# Corriendo en el puerto 3001
+if __name__ == '__main__':
+    app.run(port=3001, debug=True)
+                                    </code></pre>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="card mt-3" id="tc6">
+                        <div class="" data-aos="zoom-in" data-aos-delay="100">
+
+                            <div>
+                                <h4 class="text-primary">Vistas HTML</h4>
+                                <p class="text-dark">Vista <b>/templates/layout.html</b> </p>
+                                <div class="card">
+                                    <pre class="line-numbers language-html"><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Flask&lt;/title&gt;
+    &lt;!-- Bootstrap --&gt;
+    &lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous"&gt;
+    &lt;!-- Estilos propios --&gt;
+    &lt;link rel="stylesheet" href="{{url_for('static',filename='css/estilos.css')}}"&gt;
+    &lt;!-- Iconos de Font awesome --&gt;
+    &lt;link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+    &lt;nav class="navbar navbar-expand-lg navbar-dark bg-dark"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;a class="navbar-brand" href="/"&gt;Flask&lt;/a&gt;
+          &lt;button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"&gt;
+            &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+          &lt;/button&gt;
+          &lt;div class="collapse navbar-collapse" id="navbarSupportedContent"&gt;
+            &lt;ul class="navbar-nav me-auto mb-2 mb-lg-0"&gt;
+              &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link active" aria-current="page" href="#"&gt;Home&lt;/a&gt;
+              &lt;/li&gt;
+              
+            &lt;/ul&gt;
+            &lt;form class="d-flex"&gt;
+              &lt;input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"&gt;
+              &lt;button class="btn btn-outline-success" type="submit"&gt;Search&lt;/button&gt;
+            &lt;/form&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;
+
+    {% block body%}
+    {% endblock %}
+
+    &lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"&gt;&lt;/script&gt;
+    &lt;script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"&gt;&lt;/script&gt;
+    &lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"&gt;&lt;/script&gt;
+    
+&lt;/body&gt;
+&lt;/html&gt;
+                                    </code></pre>
+                                </div>
+                                <p class="text-dark">Vista <b>/templates/index.html</b> </p>
+                                <div class="card">
+                                    <pre class="line-numbers language-html"><code>
+{% extends 'layout.html' %}
+
+{% block body %}
+
+&lt;div class="row"&gt;
+
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    {% for message in messages %}
+    &lt;div class="alert alert-success alert-dismissible fade show" role="alert"&gt;
+        &lt;strong&gt;Hey!&lt;/strong&gt; {{ message }}
+        &lt;button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"&gt;&lt;/button&gt;
+    &lt;/div&gt;
+
+    {% endfor%}
+    {% endif %}
+    {% endwith%}
+
+    &lt;div class="col-md-5 container-fluid"&gt;
+        &lt;div class="card mt-3 text-white bg-dark mb-3"&gt;
+            &lt;div class="card-header"&gt;
+                Insertar Nuevo
+            &lt;/div&gt;
+            &lt;div class="card card-body"&gt;
+                &lt;form action="crear_materia" method="POST"&gt;
+                    &lt;div class="input-group mb-3"&gt;
+                        &lt;input class="form-control" type="text" name="materia" placeholder="Materia"&gt;
+                    &lt;/div&gt;
+                    &lt;div class="input-group mb-3"&gt;
+                        &lt;input class="form-control" type="text" name="sigla" placeholder="Sigla"&gt;
+                    &lt;/div&gt;
+                    &lt;div class="input-group mb-3"&gt;
+                        &lt;input class="form-control" type="text" name="descripcion" placeholder="Descripcion"&gt;
+                    &lt;/div&gt;
+
+                    &lt;button class="btn btn-primary form-control " type="submit"&gt;
+                        Registrar
+                    &lt;/button&gt;
+                    
+                &lt;/form&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+    &lt;div class="card mt-3 "&gt;
+        &lt;div class="row"&gt;
+            {% for materia in materias %}
+            &lt;div class="col-md-3 mt-3"&gt;
+                &lt;div class="card border-primary"&gt;
+                    &lt;div class="card-header"&gt;
+                        {{ materia.1 }}
+                    &lt;/div&gt;
+                    &lt;div class="card-body"&gt;
+                        &lt;h5 class="card-title"&gt;{{ materia.2 }}&lt;/h5&gt;
+                        &lt;p class="card-text"&gt;{{ materia.3 }}&lt;/p&gt;
+                        &lt;div class="center-block"&gt;
+                            &lt;!-- aria-label="..." on the control --&gt;
+
+                            &lt;a href="/editar/{{materia.0}}" class="btn btn-warning btn-sm"&gt;Editar&lt;/a&gt;
+                            &lt;a href="/eliminar/{{materia.0}}" class="btn btn-danger btn-delete btn-sm"&gt;Eliminar&lt;/a&gt;
+                        &lt;/div&gt;
+                        
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            {% endfor%}
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+{% endblock %}
+                                    </code></pre>
+                                </div>
+                                <p class="text-dark">Vista <b>/templates/edit_materia.html</b> </p>
+                                <div class="card">
+                                    <pre class="line-numbers language-html"><code>
+{% extends 'layout.html' %}
+
+{% block body %}
+&lt;div class="card-header"&gt;
+    Editar Materia
+&lt;/div&gt;
+&lt;div class="card card-body"&gt;
+    &lt;form action="/actualizar/{{materia.0}}" method="POST"&gt;
+        &lt;div class="input-group mb-3"&gt;
+            &lt;input class="form-control" type="text" name="materia" placeholder="Materia" value="{{materia.1}}"&gt;
+        &lt;/div&gt;
+        &lt;div class="input-group mb-3"&gt;
+            &lt;input class="form-control" type="text" name="sigla" placeholder="Sigla" value="{{materia.2}}"&gt;
+        &lt;/div&gt;
+        &lt;div class="input-group mb-3"&gt;
+            &lt;input class="form-control" type="text" name="descripcion" placeholder="Descripcion" value="{{materia.3}}"&gt;
+        &lt;/div&gt;
+        
+        &lt;button class="btn btn-success form-control btn-block" type="submit"&gt;
+            Actualizar
+        &lt;/button&gt;
+    &lt;/form&gt;
+&lt;/div&gt;
+
+{% endblock %}
+                                    </code></pre>
+                                </div>
+
+                                <p class="text-dark">Para correr el programa ejecutamos el siguiente comando en nuestro terminal </p>
+                                <pre class="language-javascript"><code> python app.py</code></pre>
+                                <p class="text-dark">El programa está corriendo en la dirección <a href="http://127.0.0.1:3001/"><b>http://127.0.0.1:3001/</b> </a> </p>
+                                <img src="../assets/img/python/python_corriendo.png" class="img-fluid"
+                                        alt="" width="80%">
+                            </div>
+                            
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="card mt-3" id="tc7">
+                        <div class="" data-aos="zoom-in" data-aos-delay="100">
+                            <img src="../assets/img/python/python_ventana1.png" class="img-fluid"
+                                        alt="" width="100%">
+                            <div>
+                                <h5>Clic aquí para ver el <a href="">Video Guía</a> </h5>
+
+                                <h5>Clic para descagar el <a href="">código fuente desde GITHUB</a> </h5>
+                            
+                                
+                            </div>
+                            
+                            
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </section><!-- End Cliens Section -->
+
+
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Contáctanos</h2>
+                    <p>Estamos al pendiente de atender a nuestros clientes.</p>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-12 d-flex align-items-stretch">
+                        <div class="info">
+                            <div class="address">
+                                <i class="bi bi-geo-alt"></i>
+                                <h4>Ubicación:</h4>
+                                <p>Oruro calle narajo nro 308</p>
+                            </div>
+
+                            <div class="email">
+                                <i class="bi bi-envelope"></i>
+                                <h4>Email:</h4>
+                                <p>a.colq.c@hotmail.com</p>
+                            </div>
+
+                            <div class="phone">
+                                <i class="bi bi-phone"></i>
+                                <h4>Call:</h4>
+                                <p>+59160427039</p>
+                            </div>
+
+                            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe> -->
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Contact Section -->
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+
+
+
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container footer-bottom clearfix">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Col</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
+                Developed by <a href="#"> COLQUE </a>
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="../assets/vendor/php-email-form/validate.js"></script>
+    <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/prism.js"></script>
+
+</body>
+
+</html>
+
+
+<div class="card">
+    <pre class="line-numbers language-python"><code>
+
+    </code></pre>
+</div>
